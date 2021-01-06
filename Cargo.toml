@@ -1,0 +1,15 @@
+[package]
+name = "xkcd-cli"
+version = "0.1.0"
+authors = ["rahulunair@gmail.com<rahulunair@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.37"
+clap = "3.0.0-beta.2"
+reqwest = {version = "0.11.0", features = ["blocking"]}
+serde = "1.0.118"
+serde_derive = "1.0.118"
+serde_json = "1.0.61"
